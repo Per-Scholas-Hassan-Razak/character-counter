@@ -8,7 +8,7 @@ const TextInput: React.FC<TextInputProps> = ({
 }) => {
   const [value, setValue] = useState(initialValue || "");
 
-  const handleTextInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+  const handleTextInputChange = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
     setValue(e.target.value);
     onTextChange(e.target.value);
   };
