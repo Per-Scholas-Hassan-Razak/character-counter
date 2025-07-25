@@ -5,18 +5,28 @@
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+.txt-inpt-area{
+  width: 600px;
+  height: 200px;
+  margin:auto;
+  background-color:#fff;
+  color: black;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+
+.stats-container{
+  display:flex;
+  justify-content:center;
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+
+.stats-container div {
+  width: 175px;
+  padding:5px;
+  border: 2px solid white; 
+  border-radius: 5px;
+  margin:auto;
 }
+
+
 
 @keyframes logo-spin {
   from {
